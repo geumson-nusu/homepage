@@ -870,7 +870,7 @@ document.addEventListener('keydown',function(e){var k=(e.key||'').toLowerCase();
 
 <script>
 // 받으면 채울 주소
-const LINKS = { kakao: '', blog: '', soomgo: '' };
+const LINKS = { kakao: 'https://pf.kakao.com/_LxlLvX/chat', blog: '', soomgo: '' };
 document.querySelectorAll('[data-kakao]').forEach(a=>{ if(LINKS.kakao){a.href=LINKS.kakao;a.target='_blank'} });
 document.querySelectorAll('[data-blog]').forEach(a=>{
   if(LINKS.blog){a.href=LINKS.blog;a.target='_blank'}
